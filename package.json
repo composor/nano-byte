@@ -1,0 +1,19 @@
+{
+  "name": "nano-byte",
+  "version": "0.5.0",
+  "description": "A tiny library for creating functional components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jsx",
+    "react",
+    "vuejs",
+    "virtual dom",
+    "components",
+    "functional"
+  ],
+  "author": "rbiggs",
+  "license": "MIT"
+}
