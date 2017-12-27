@@ -10,17 +10,6 @@ import {createElement} from './createElement'
 export function render(tag, container) {
   if (typeof container === 'string') container = document.querySelector(container)
   
-  let elem
-  if (tag.props && tag.props.id) {
-    try {
-      if (typeof container === 'string') {
-        elem = document.querySelector(container).querySelector(`#${tag.props.id}`)
-      } else {
-        elem = container.querySelector(`#${tag.props.id}`)
-      }
-    } catch(err) {}
-  }
-  
   const ret = document.createDocumentFragment('div')
   ret.appendChild(createElement(tag))
   container.textContent = ''

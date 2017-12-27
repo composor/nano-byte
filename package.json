@@ -1,6 +1,6 @@
 {
   "name": "nano-byte",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "A tiny library for creating functional components.",
   "main": "index.js",
   "scripts": {
